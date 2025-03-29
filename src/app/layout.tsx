@@ -1,6 +1,20 @@
+import { Poppins , Montserrat } from "next/font/google";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "./components/header/header";
+
+
+const poppins = Poppins({
+  subsets : ["latin"],
+  weight : ["400", "700", "500"],
+});
+
+const myFont = Montserrat({
+  subsets : ["latin"],
+  weight : ["400", "700", "500"],
+});
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,10 +38,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+   
     <html lang="en">
+      
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+       className={poppins.className}>
+         <Header></Header>
+      
         {children}
       </body>
     </html>
