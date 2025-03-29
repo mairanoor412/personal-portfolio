@@ -19,10 +19,10 @@ const ResponsiveMenu = ({ open }: any) => {
                                 <Link href="/"  className="hover:underline hover:text-black"> Home </Link>
                             </li>
                             <li className="text-[16px] font-[500] text-primary">
-                                <Link href="/shop"  className="hover:underline hover:text-black">  Shop </Link>
+                                <Link href="projects-page"  className="hover:underline hover:text-black">  Projects</Link>
                             </li>
                             <li className="text-[16px] font-[500] text-primary">
-                                <Link href="/blog"  className="hover:underline hover:text-black"> Blog </Link>
+                                <Link href="/about-me"  className="hover:underline hover:text-black"> About Me </Link>
                             </li>
                             <li className="text-[16px] font-[500] text-primary">
                                 <Link href="/contact"  className="hover:underline hover:text-black"> Contact </Link>
