@@ -72,7 +72,7 @@ const Header = () => {
             </div>
 
             {/*Mobile Hamburger */}
-            <div className=" fixed top-5 left-5 z-30 md:hidden" onClick={() =>
+            <div className=" fixed top-5 left-5 z-30 md:hidden overflow-hidden" onClick={() =>
                 setopen(!open)}>
                 {open ? (
                     <IoClose className="size-6 text-primary cursor-pointer" /> // Close Icon

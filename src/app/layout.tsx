@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
 
 const poppins = Poppins({
@@ -46,6 +47,7 @@ export default function RootLayout({
          <Header></Header>
       
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );

@@ -23,7 +23,7 @@ const Contact = () => {
 
     return (
 
-        <section className="overflow-x-hidden h-screen">
+        <section className="overflow-x-hidden bg-[#F9FAFF] h-screen">
 
             {/* heading */}
             <motion.div
