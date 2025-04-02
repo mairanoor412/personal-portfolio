@@ -83,7 +83,7 @@ const Projects = () => {
             viewport={{ once: false, amount: 0.6 }} // Set once: false for animation on every scroll
             variants={cardVariantsTop}
              className="flex justify-center items-center pb-10 md:pb-14">
-                <h1 className="text-[30px] font-bold border-b-4 border-[#FDC435] inline-block mt-20  mb-8  md:pt-5"> Projects </h1>
+                <h1 className="text-primary text-[30px] font-bold border-b-4 border-[#FDC435] inline-block mt-20  mb-8  md:pt-5"> Projects </h1>
             </motion.div>
 
             {/* card 1*/}
@@ -101,8 +101,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold">  E-Commerce Website </h1>
-                        <p className="text-[14px] text-justify">A modern, fully responsive e-commerce platform built with Next.js, Redux Toolkit, and Tailwind CSS. Users can browse and select products, add them to the cart, update quantities, and remove items as needed. Features include a dynamic cart and checkout system.</p>
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold">  E-Commerce Website </h1>
+                        <p className="text-primary text-[14px] text-justify">A modern, fully responsive e-commerce platform built with Next.js, Redux Toolkit, and Tailwind CSS. Users can browse and select products, add them to the cart, update quantities, and remove items as needed. Features include a dynamic cart and checkout system.</p>
 
                         <motion.button
                         
@@ -132,8 +132,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold">  Blog Website </h1>
-                        <p className="text-[14px] text-justify"> A modern blogging website built with Next.js, Tailwind CSS, and Sanity CMS. It offers a clean UI, dynamic blog posts, and seamless content management with a mobile-friendly design.</p>
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold">  Blog Website </h1>
+                        <p className="text-primary text-[14px] text-justify"> A modern blogging website built with Next.js, Tailwind CSS, and Sanity CMS. It offers a clean UI, dynamic blog posts, and seamless content management with a mobile-friendly design.</p>
 
                         <motion.button
                             whileHover={{borderColor: "#FDC435", color: "#000"}}
@@ -162,8 +162,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold">   Figma Design Clone </h1>
-                        <p className="text-[14px] text-justify">A responsive Figma design clone built using Next.js and Tailwind CSS.
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold">   Figma Design Clone </h1>
+                        <p className="text-primary text-[14px] text-justify">A responsive Figma design clone built using Next.js and Tailwind CSS.
                              Optimized for desktop and mobile screens, ensuring a clean UI with pixel-perfect accuracy and smooth responsiveness.</p>
 
                         <motion.button
@@ -193,8 +193,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold">  Static Resume Builder </h1>
-                        <p className="text-[14px] text-justify">A structured, well-formatted static resume built with HTML and CSS. Features a clean layout with sections for personal details, education, skills, and work experience. Includes an interactive toggle button to show or hide skills dynamically.</p>
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold">  Static Resume Builder </h1>
+                        <p className="text-primary text-[14px] text-justify">A structured, well-formatted static resume built with HTML and CSS. Features a clean layout with sections for personal details, education, skills, and work experience. Includes an interactive toggle button to show or hide skills dynamically.</p>
 
                         <motion.button
                             whileHover={{borderColor: "#FDC435", color: "#000"}}
@@ -223,8 +223,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold"> Dynamic Resume Builder </h1>
-                        <p className="text-[14px] text-justify"> A web application that allows users to create and preview resumes dynamically. Features an interactive UI, enabling users to input details and generate a well-formatted resume instantly. Built with HTML, CSS, and TypeScript.</p>
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold"> Dynamic Resume Builder </h1>
+                        <p className="text-primary text-[14px] text-justify"> A web application that allows users to create and preview resumes dynamically. Features an interactive UI, enabling users to input details and generate a well-formatted resume instantly. Built with HTML, CSS, and TypeScript.</p>
 
                         <motion.button
                             whileHover={{borderColor: "#FDC435", color: "#000"}}
@@ -254,8 +254,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold"> CLI Calculator </h1>
-                        <p className="text-[14px] text-justify"> A simple and interactive CLI calculator built with TypeScript &
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold"> CLI Calculator </h1>
+                        <p className="text-primary text-[14px] text-justify"> A simple and interactive CLI calculator built with TypeScript &
                              Node.js, allowing users to perform Addition, Subtraction, Multiplication, and Division through a user-friendly terminal interface.</p>
 
                         <motion.button
@@ -285,8 +285,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold">  CLI Number Guessing Game </h1>
-                        <p className="text-[14px] text-justify">A simple CLI-based game built with TypeScript & Node.js, where users guess
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold">  CLI Number Guessing Game </h1>
+                        <p className="text-primary text-[14px] text-justify">A simple CLI-based game built with TypeScript & Node.js, where users guess
                              a random number between 1-6. Provides instant feedback on whether the guess is correct or not.</p>
 
                         <motion.button
@@ -318,8 +318,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold"> CLI To-Do List </h1>
-                        <p className="text-[14px] text-justify"> A simple CLI-based to-do list built with TypeScript & Node.js, allowing users to add multiple tasks
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold"> CLI To-Do List </h1>
+                        <p className="text-primary text-[14px] text-justify"> A simple CLI-based to-do list built with TypeScript & Node.js, allowing users to add multiple tasks
                              dynamically and view their updated list in the terminal.</p>
 
                         <motion.button
@@ -349,8 +349,8 @@ const Projects = () => {
 
                     {/* description */}
                     <div className="px-4 py-5 md:px-5 md:py-16 flex flex-col gap-3 bg-secondary ">
-                        <h1 className="text-[20px] md:text-[22px] font-bold"> CLI ATM Simulator </h1>
-                        <p className="text-[14px] text-justify"> A CLI-based ATM system built with TypeScript & Node.js, allowing users to authenticate via PIN, check balance,
+                        <h1 className="text-primary text-[20px] md:text-[22px] font-bold"> CLI ATM Simulator </h1>
+                        <p className="text-primary text-[14px] text-justify"> A CLI-based ATM system built with TypeScript & Node.js, allowing users to authenticate via PIN, check balance,
                              withdraw cash, and use fast cash options. Provides a simple banking experience directly in the terminal.</p>
 
                         <motion.button

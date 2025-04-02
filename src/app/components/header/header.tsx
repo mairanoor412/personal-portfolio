@@ -23,7 +23,7 @@ const Header = () => {
                         Portfolio
                     </motion.span>
                 </a>
-                <nav className="md:ml-auto md:mr-24 lg:mr-52 md:relative md:z-10  md:flex md:flex-wrap md:items-center md:gap-12 lg:gap-16 md:text-base md:justify-center">
+                <nav className="lg:ml-auto   lg:mr-80 md:relative md:z-10  md:flex md:flex-wrap md:items-center md:mx-auto md:gap-5 lg:gap-10 md:text-base md:justify-center">
 
                     
                     <motion.div

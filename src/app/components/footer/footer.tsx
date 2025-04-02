@@ -10,12 +10,12 @@ const Footer = () => {
 
             {/* linkdin/ gitHup/ Contact */}
             <div className="flex justify-center items-center gap-3">
-                <BsLinkedin className="size-5" />
-                <FaSquareGithub className="size-6" />
-                <MdOutlineContactPhone className="size-6" />
+                <BsLinkedin className="text-primary size-5" />
+                <FaSquareGithub className="text-primary size-6" />
+                <MdOutlineContactPhone className="text-primary size-6" />
             </div>
 
-            <p className="text-center text-[12px] md:text-[15px] pt-4"> © 2025 Maira Naeem. All rights reserved. </p>
+            <p className="text-primary text-center text-[12px] md:text-[15px] pt-4"> © 2025 Maira Naeem. All rights reserved. </p>
 
 
             {/* <svg className="w-[100%] h-[280px]" width="100%" height="auto" preserveAspectRatio="xMinYMin slice" viewBox="0 0 829 196" fill="none" xmlns="http://www.w3.org/2000/svg">

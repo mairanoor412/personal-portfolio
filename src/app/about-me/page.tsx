@@ -31,7 +31,7 @@ const AboutMe = () => {
                 viewport={{ once: false, amount: 0.1 }} // Set once: false for animation on every scroll
                 variants={cardVariantsLeft}
                 className="flex justify-center items-center pb-12 md:pb-10 pt-20 lg:pb-8 ">
-                <h1 className="text-[25px] md:text-[30px]  font-bold border-b-4 border-[#FDC435] inline-block pb-1"> About Me </h1>
+                <h1 className="text-primary text-[25px] md:text-[30px]  font-bold border-b-4 border-[#FDC435] inline-block pb-1"> About Me </h1>
             </motion.div>
 
 
@@ -42,7 +42,7 @@ const AboutMe = () => {
                      initial={{ opacity: 0, x: -50 }}
                      animate={{ opacity: 1, x: 0 }}
                      transition={{ duration: 1, delay: 0.5 }}
-                     className="text-[14px] lg:text-[16px] tracking-normal leading-[1.56] pb-9 sm:pb-12 lg:w-[450px]  ">I am a passionate Front-End Developer with expertise in Next.js, TypeScript, Redux Toolkit, Tailwind CSS, and UI/UX design. I specialize in building pixel-perfect and responsive web applications with a strong focus on performance. Currently, I am expanding my skills by learning Python. My portfolio showcases various projects, from e-commerce platforms to interactive web applications and CLI tools.</motion.p>
+                     className="text-primary text-[14px] lg:text-[16px] tracking-normal leading-[1.56] pb-9 sm:pb-12 lg:w-[450px]  ">I am a passionate Front-End Developer with expertise in Next.js, TypeScript, Redux Toolkit, Tailwind CSS, and UI/UX design. I specialize in building pixel-perfect and responsive web applications with a strong focus on performance. Currently, I am expanding my skills by learning Python. My portfolio showcases various projects, from e-commerce platforms to interactive web applications and CLI tools.</motion.p>
                     <Button text="Resume"></Button>
                 </div>
 

@@ -32,7 +32,7 @@ const Contact = () => {
                 viewport={{ once: false, amount: 0.1 }} // Set once: false for animation on every scroll
                 variants={cardVariantsLeft}
                 className="flex justify-center items-center pb-12 md:pb-10 pt-20 lg:pb-8 ">
-                <h1 className="text-[25px] md:text-[30px]  font-bold border-b-4 border-[#FDC435] inline-block pb-1"> Contact </h1>
+                <h1 className="text-primary text-[25px] md:text-[30px]  font-bold border-b-4 border-[#FDC435] inline-block pb-1"> Contact </h1>
             </motion.div>
 
             {/* input fields */}
