@@ -9,10 +9,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
     return (
-        <section className="overflow-x-hidden md:h-screen md:grid md:grid-cols-2   ">
+        <section className="overflow-x-hidden md:h-screen md:grid md:grid-cols-2">
 
             {/* right section */}
-            <div className="md:order-2 md:relative ">
+            <div className="md:order-2 md:relative">
 
                 {/* image */}
                 <div className=" ml-auto h-[330px] w-[400px] sm:w-[500px] md:w-[420px] md:h-auto lmd:w-[500px] lmd:h-auto lg:w-[600px] lg:h-auto md:absolute md:top-0 md:left-auto md:right-0  z-10">

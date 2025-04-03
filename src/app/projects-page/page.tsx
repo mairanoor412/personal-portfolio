@@ -4,7 +4,7 @@ import Projects from "../components/projects/projects";
 
 const ProjectsPage = () => {
     return (
-        <div>
+        <div className="bg-[#F9FAFF]">
             <Projects />
         </div>
     )

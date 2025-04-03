@@ -23,7 +23,7 @@ const Contact = () => {
 
     return (
 
-        <section className="overflow-x-hidden bg-[#F9FAFF] h-screen">
+        <section className="overflow-x-hidden bg-[#F9FAFF] ">
 
             {/* heading */}
             <motion.div
@@ -31,14 +31,14 @@ const Contact = () => {
                 whileInView="onscreen"
                 viewport={{ once: false, amount: 0.1 }} // Set once: false for animation on every scroll
                 variants={cardVariantsLeft}
-                className="flex justify-center items-center pb-12 md:pb-10 pt-20 lg:pb-8 ">
+                className="flex justify-center items-center pb-12  md:pb-10 pt-24 lg:pb-8 ">
                 <h1 className="text-primary text-[25px] md:text-[30px]  font-bold border-b-4 border-[#FDC435] inline-block pb-1"> Contact </h1>
             </motion.div>
 
             {/* input fields */}
-            <form action="https://formspree.io/f/xgvalyvd"
+            <form className="pb-60" action="https://formspree.io/f/xgvalyvd"
                 method="POST">
-                <div className="grid grid-cols-1 justify-items-center">
+                <div className="grid grid-cols-1 justify-items-center ">
 
                     {/* name */}
                     <motion.div className=""
