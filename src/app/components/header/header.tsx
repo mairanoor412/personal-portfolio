@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import ResponsiveMenu from "../responsiveMenu/responsiveMenu";
 import { IoClose } from "react-icons/io5";
@@ -9,6 +9,22 @@ import Link from "next/link";
 
 const Header = () => {
     const [open, setopen] = useState(false)
+
+
+    useEffect(() => {
+        if (open) {
+            document.body.style.overflow = "hidden"; // Disable scrolling when menu is open
+        } else {
+            document.body.style.overflow = "auto"; // Enable scrolling when menu is closed
+        }
+
+        return () => {
+            document.body.style.overflow = "auto"; // Cleanup when component unmounts
+        };
+    }, [open]);
+
+    
+
     return (
         <header className="overflow-x-hidden ">
             <div className="md:absolute md:top-0 md:left-0  md:z-50  hidden md:w-[769px] lg:w-full xl:w-[1440px] md:mx-auto md:flex  md:p-5  md:flex-row md:items-center">
