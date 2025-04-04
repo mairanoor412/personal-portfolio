@@ -30,13 +30,14 @@ const Header = () => {
      // Auto-close menu on route change
      useEffect(() => {
         const handleRouteChange = () => {
-            setopen(false);
+            setopen(false); // Close menu on route change
         };
 
-        router.events.on("routeChangeStart", handleRouteChange);
+        // Listen to route change
+        router.events?.on('routeChangeStart', handleRouteChange);
 
         return () => {
-            router.events.off("routeChangeStart", handleRouteChange);
+            router.events?.off('routeChangeStart', handleRouteChange);
         };
     }, [router]);
 
