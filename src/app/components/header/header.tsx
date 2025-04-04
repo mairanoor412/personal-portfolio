@@ -5,13 +5,14 @@ import ResponsiveMenu from "../responsiveMenu/responsiveMenu";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import router from "next/router";
+import { useRouter } from "next/router";
 
 
 const Header = () => {
     const [open, setopen] = useState(false)
+    const router = useRouter(); // ✅ use the hook here
 
-
+    // Disable scroll when menu is open
     useEffect(() => {
         if (open) {
             document.body.style.overflow = "hidden"; // Disable scrolling when menu is open
