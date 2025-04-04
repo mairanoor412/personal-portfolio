@@ -7,9 +7,10 @@ const ResponsiveMenu = ({ open }: any) => {
 
             {open && (
                 <motion.div
+                key="mobile-menu" // ensures correct animation
                     initial={{ opacity: 0, x: -200 }}
                     animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: -100 }}
+                    exit={{ opacity: 0, x: -200 }}
                     transition={{ duration: 0.3 }}
                     className="absolute top-0 left-0 w-[250px] h-screen z-20 bg-[#FDC435]  border-[2px] border-secondary opacity-90 py-10 md:hidden"
                 >
