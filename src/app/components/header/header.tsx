@@ -28,19 +28,18 @@ const Header = () => {
 
 
 
-     // Auto-close menu on route change
+      // ✅ Close mobile nav on route change
      useEffect(() => {
-        const handleRouteChange = () => {
-            setopen(false); // Close menu on route change
-        };
-
-        // Listen to route change
-        router.events?.on('routeChangeStart', handleRouteChange);
-
-        return () => {
-            router.events?.off('routeChangeStart', handleRouteChange);
-        };
-    }, [router]);
+         const handleRouteChange = () => {
+             setopen(false);
+         };
+ 
+         router.events.on("routeChangeStart", handleRouteChange);
+ 
+         return () => {
+             router.events.off("routeChangeStart", handleRouteChange);
+         };
+     }, [router]);
 
     
 
