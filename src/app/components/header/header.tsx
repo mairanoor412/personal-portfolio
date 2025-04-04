@@ -5,6 +5,7 @@ import ResponsiveMenu from "../responsiveMenu/responsiveMenu";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import router from "next/router";
 
 
 const Header = () => {
@@ -22,6 +23,22 @@ const Header = () => {
             document.body.style.overflow = "auto"; // Cleanup when component unmounts
         };
     }, [open]);
+
+
+
+
+     // Auto-close menu on route change
+     useEffect(() => {
+        const handleRouteChange = () => {
+            setopen(false);
+        };
+
+        router.events.on("routeChangeStart", handleRouteChange);
+
+        return () => {
+            router.events.off("routeChangeStart", handleRouteChange);
+        };
+    }, [router]);
 
     
 
