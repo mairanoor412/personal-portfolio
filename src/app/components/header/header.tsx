@@ -5,13 +5,11 @@ import ResponsiveMenu from "../responsiveMenu/responsiveMenu";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { useRouter } from "next/router";
-
+import { usePathname } from "next/navigation";
 
 const Header = () => {
     const [open, setopen] = useState(false)
-    const router = useRouter(); // ✅ use the hook here
-
+    const pathname = usePathname();
     // Disable scroll when menu is open
     useEffect(() => {
         if (open) {
@@ -28,19 +26,10 @@ const Header = () => {
 
 
 
-      // ✅ Close mobile nav on route change
-     useEffect(() => {
-         const handleRouteChange = () => {
-             setopen(false);
-         };
- 
-         router.events.on("routeChangeStart", handleRouteChange);
- 
-         return () => {
-             router.events.off("routeChangeStart", handleRouteChange);
-         };
-     }, [router]);
-
+      // ✅ Close mobile menu when route (pathname) changes
+    useEffect(() => {
+        setopen(false);
+    }, [pathname]);
     
 
     return (
