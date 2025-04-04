@@ -37,7 +37,7 @@ const AboutMe = () => {
 
             {/* left Section introduction*/}
             <div className=" md:h-screen grid md:grid-cols-2 md:w-[700px] lg:w-[1100px] m-auto gap-10 sm:gap-14 md:gap-16 ">
-                <div className="order-2 px-3 sm:px-4 md:pt-8 lg:pt-14 mb-20 pt-4">
+                <div className="order-2 px-3 sm:px-4 md:pt-8 lg:pt-14  pt-4">
                     <motion.p 
                      initial={{ opacity: 0, x: -50 }}
                      animate={{ opacity: 1, x: 0 }}

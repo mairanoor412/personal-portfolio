@@ -36,7 +36,7 @@ const Contact = () => {
             </motion.div>
 
             {/* input fields */}
-            <form className="pb-60" action="https://formspree.io/f/xgvalyvd"
+            <form  action="https://formspree.io/f/xgvalyvd"
                 method="POST">
                 <div className="grid grid-cols-1 justify-items-center ">
 

@@ -6,7 +6,7 @@ import { MdOutlineContactPhone } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#F9FAFF] overflow-hidden">
+        <footer className="bg-[#F9FAFF] overflow-hidden pt-52">
 
             {/* linkdin/ gitHup/ Contact */}
             <div className="flex justify-center items-center gap-3">
