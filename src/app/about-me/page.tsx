@@ -43,17 +43,23 @@ const AboutMe = () => {
                      animate={{ opacity: 1, x: 0 }}
                      transition={{ duration: 1, delay: 0.5 }}
                      className="text-primary text-[14px] lg:text-[16px] tracking-normal leading-[1.56] pb-9 sm:pb-12 lg:w-[450px]  ">I am a passionate Front-End Developer with expertise in Next.js, TypeScript, Redux Toolkit, Tailwind CSS, and UI/UX design. I specialize in building pixel-perfect and responsive web applications with a strong focus on performance. Currently, I am expanding my skills by learning Python. My portfolio showcases various projects, from e-commerce platforms to interactive web applications and CLI tools.</motion.p>
-                    <Button text="Resume"></Button>
+
+                     <span className="flex gap-4">
+                     <a href="/Maira-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <Button text="View Resume"></Button>
+                    </a>
+
+
+                    <a href="/Maira-Resume.pdf" download target="_blank" rel="noopener noreferrer">
+                    <Button text="Download Resume"></Button>
+                    </a>
+                    </span>
+
                 </div>
 
                 {/* Right Section Image */}
                 <div className="w-[240px] h-[240px] sm:w-[350px] sm:h-[350px] m-auto md:mx-auto  md:w-[600px] md:h-[600px] lg:w-[250px] lg:h-[650px]  md:order-2">
-                {/* <svg>
-                 
-                   width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg "
-                    <path d="M499.5 250C499.5 387.795 387.795 499.5 250 499.5C112.205 499.5 0.5 387.795 0.5 250C0.5 112.205 112.205 0.5 250 0.5C387.795 0.5 499.5 112.205 499.5 250Z" fill="#FDC435" stroke="#FDC435" />
-                </svg> */}
-
+               
 {/* <motion.svg
 initial={{ opacity: 0, x:50 }}
 animate={{ opacity: 1, x: 0 }}

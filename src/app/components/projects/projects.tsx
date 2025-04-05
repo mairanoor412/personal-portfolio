@@ -263,7 +263,7 @@ const Projects = () => {
                             
                             transition={{  duration: 0.4, ease: "easeInOut"}}
                             className="flex justify-start">
-                            <Link href="https://hackathon-3-blond-three.vercel.app/" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
+                            <Link href="https://github.com/mairanoor412/calculator-NPX-command.git" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
                     </div>
                 </div>
             </motion.div>
@@ -294,7 +294,7 @@ const Projects = () => {
                             
                             transition={{  duration: 0.4, ease: "easeInOut"}}
                             className="flex justify-start">
-                            <Link href="https://hackathon-3-blond-three.vercel.app/" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
+                            <Link href="https://github.com/mairanoor412/cli-numbers-guessing.git" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
                     </div>
                 </div>
             </motion.div>
@@ -327,7 +327,7 @@ const Projects = () => {
                             
                             transition={{  duration: 0.4, ease: "easeInOut"}}
                             className="flex justify-start">
-                            <Link href="https://hackathon-3-blond-three.vercel.app/" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
+                            <Link href="https://github.com/mairanoor412/todo-list.git" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
                     </div>
                 </div>
             </motion.div>
@@ -358,7 +358,7 @@ const Projects = () => {
                             
                             transition={{  duration: 0.4, ease: "easeInOut"}}
                             className="flex justify-start">
-                            <Link href="https://hackathon-3-blond-three.vercel.app/" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
+                            <Link href="https://github.com/mairanoor412/atm.git" className=" text-left mt-2 py-2 px-6 border-[1px] hover:border-[1px] shadow-lg hover:border-[#FDC435] rounded-[5px] text-[13px] text-primary transition-all duration-300 hover:bg-[#FDC435] "> View Projects</Link> </motion.button>
                     </div>
                 </div>
             </motion.div>
