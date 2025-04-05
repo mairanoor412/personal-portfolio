@@ -23,7 +23,7 @@ const AboutMe = () => {
     };
 
     return (
-        <section className="overflow-hidden bg-[#F9FAFF] ">
+        <section className="overflow-x-hidden bg-[#F9FAFF] h-auto ">
             {/* heading */}
             <motion.div 
                 initial="offscreen"
